@@ -1,0 +1,8 @@
+package comp-cat-exercises
+
+modules =
+  Main
+
+sourcedir = src
+
+opts = "-p idris-ct contrib"

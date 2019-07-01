@@ -1,0 +1,12 @@
+[package]
+name = "mstn/comp-cat-exercises"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+"statebox/idris-ct" = { git = "ssh://git@github.com/statebox/idris-ct" }
+
+[targets.lib]
+path = "src"
+mods = [ ]
+idris_opts = ["-p", "contrib"]
